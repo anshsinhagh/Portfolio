@@ -200,11 +200,13 @@ figure > img {
   margin-left: 5%;
   margin-bottom: 1em;
 }
-
 figcaption {
   width: 80%;
   margin-left: 5%;
-  word-wrap: break-word;
+  hyphens: auto;
+  white-space: normal;
+  word-break: break-all;
+  overflow-wrap: normal;
 }
 
 /*footer and contact section*/
